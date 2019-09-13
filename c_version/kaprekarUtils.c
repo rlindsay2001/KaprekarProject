@@ -48,7 +48,7 @@ int isKaprekar(int n) {
     //test if the split makes a Kaprekar number
     //the second part cannot be zero and if
     //the sum of the two parts is equal to n, then it is
-    if(n == first + second) {
+    if(n == first + second && second > 0) {
       return 1;
     }
   }
